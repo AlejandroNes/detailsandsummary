@@ -1,0 +1,38 @@
+.contenedor {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq {
+    background-color: rgb(19, 26, 44);
+    padding: 15px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 550px;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+summary {
+    color: #fff;
+    list-style: none;
+    margin: 5px 0;
+}
+
+summary:before {
+    content: "❓";
+    margin-right: 10px;
+}
+
+p {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
